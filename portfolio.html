@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Esto puede ayudar a mitigar posibles problemas de representación en versiones anteriores de Internet Explorer -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav class="navbar">
+          <div class="brand">
+            <h2 id="Inicio"><span>A</span>G</h2>
+          </div>
+          <div class="hero" id="home">
+            <nav class="leng">
+              <div class="bradn">
+                <ul class="idiomas" id="idiomas">
+                    <li><a href="#" id="espanol">Español <img src="img/bandera_españa.jpg" alt="Español" style="width: 35px; height: 30px;"></a></li>
+                    <li><a href="#" id="ingles">English <img src="img/bandera uk.avif" alt="English" style="width: 35px; height: 30px;"></a></li>
+                    <li><a href="#" id="aleman">Deutsch <img src="img/bandera_alemania.jpg" alt="Deutsch" style="width: 35px; height: 30px;"></a></li>                    
+              </ul>
+              </div>
+            </nav>
+          </div>
+          <ul class="menu">
+            <li><a href="#Inicio">Inicio</a></li>
+            <li><a href="#SobreMi">Quien Soy</a></li>
+            <li><a href="#Proyectos">Proyectos</a></li>
+            <li><a href="#Contacto">Contacto</a></li>
+            <li class="menu_item_lenguage"><a href="#"><img src="img/lenguage.png" alt="Lenguage" style="width: 60px; height: 50px;"></a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <div class="info-content">
+          <h1>Soy <span>Alejandro</span> García</h1>
+           <p>Desarrollador de Aplicaciones Web</p>
+        </div>
+        <img src="img/foto.png" alt="Alejandro Garcia Foto perfil">
+      </main>
+    </div>
+      <div class="about">
+        <img src="img/fotoFondo.jpeg" alt="Alejandro Garcia Foto">
+        <div class="about-info">
+          <h2 id="SobreMi">Sobre mí</h2>
+          <div class="divider"></div>
+          <p><b>Me llamo Alejandro García Navarro, tengo 32 años y acabo de finalizar mis estudios en programación web, estoy ansioso por aplicar mis conocimientos y habilidades en un entorno profesional. Poseo un sólido conocimiento de las tecnologías web esenciales, incluyendo HTML, CSS y Java</p>
+          <p>Además, tengo experiencia práctica con herramientas como Git, Docker y MySQL. Estoy familiarizado con las metodologías ágiles de desarrollo y estoy dispuesto a aprender y adaptarme rápidamente a nuevas tecnologías y entornos de trabajo.</p>
+          <p>Soy una persona responsable, organizada y con gran capacidad de trabajo en equipo. Tengo una actitud proactiva y estoy siempre dispuesto a asumir nuevos retos.</p>
+          <p>Si buscas un programador web junior con ganas de aprender y aportar valor a tu equipo, no dudes en contactarme.</b></p>
+          <button type="submit" class="btn-info">Más información</button>
+        </div>
+      </div>
+      <div class="proyectos">
+        <div class="proyectos-heading">
+          <h2 id="Proyectos">Proyectos</h2>
+          <div class="divider"></div>
+        </div>
+
+        <div class="container">
+          <div class="card">
+            <img src="img/sistema_pago.jpg">
+            <p>Creación de un programa de sistema de pago con Java para cobros tanto en efectivo como con tarjeta</p>
+            <button type="submit" class="btn-card">Leer más</button>
+          </div>
+
+          <div class="card">
+            <img src="img/git.jpg">
+            <p>Creación de un videotutorial de como realizar un control de versiones con GIT a nuestro proyecto de sistema de pago</p>
+            <button type="submit" class="btn-card">Leer más</button>
+          </div>
+
+          <div class="card">
+            <img src="img/docker2.png">
+            <p>Videotutorial de utilización de la herramienta Docker para un uso a nivel principiante desde cero</p>
+            <button type="submit" class="btn-card">Leer más</button>
+          </div>
+        </div>
+      </div>
+        <div class="contact-section">
+          <div class="contact-heading">
+            <h2 id="Contacto">Contacto</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="container-contact">
+          <img src="img/FotoFooter.jpeg" alt="Alejandro Garcia Foto">
+          <div class="contact-form">
+            <h4>Contacta conmigo</h4>
+            <form class="form-group">
+              <input type="text" name="name" placeholder="Nombre" class="input" required>
+              <input type="email" name="email" placeholder="Email" class="input" required>
+              <textarea name="message" placeholder="Escribe tu mensaje aquí..." maxlength="500" required></textarea>
+              <button type="submit" class="btn-submit" onclick="return confirmacion()">Enviar</button>
+            </form>
+          </div>
+        </div>
+        </div>
+        <footer class="footer"> 
+          <div class="footer-content">
+              <h2>Alejandro García</h2>
+              <h5>Desarrollador de Aplicaciones Web</h5>
+          </div>
+          <div class="sotial-networks">
+              <a href="https://www.instagram.com/alejandro_tao/" target="_blank">
+                  <img src="img/instagram.png" alt="Instagram" style="width: 40px; height: 40px;">
+              </a>
+              <a href="https://www.linkedin.com/in/alejandro-garc%C3%ADa-navarro-123456789/" target="_blank">
+                  <img src="img/linkedin.png" alt="LinkedIn" style="width: 40px; height: 40px;">
+              </a>
+              <a href="https://x.com/Alejand93228080?s=08" target="_blank">
+                  <img src="img/twitter.png" alt="Twitter" style="width: 50px; height: 40px;">
+              </a>
+          </div>
+      </footer>
+      <script src="scripts.js" defer></script>
+    </body>
+</html>
